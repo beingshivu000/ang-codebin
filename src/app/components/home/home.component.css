@@ -1,0 +1,25 @@
+/* Styling for the list container */
+div {
+    margin: 20px; /* Add some margin around the container */
+}
+
+/* Styling for the list */
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for list items */
+li {
+    margin-bottom: 10px; /* Add some space between list items */
+    border: 1px solid #ccc; /* Add a border around each list item */
+    border-radius: 5px; /* Add some border radius for rounded corners */
+    padding: 10px; /* Add padding inside the list item */
+    text-decoration:none;
+}
+
+/* Styling for the "No Data" message */
+li.no-data {
+    color: red; /* Change text color to red */
+    font-style: italic; /* Make the text italic */
+}

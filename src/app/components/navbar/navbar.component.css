@@ -1,0 +1,51 @@
+/* Styles for the navigation container */
+div nav {
+    background-color: #7E6363; /* Background color */
+    padding: 10px; /* Padding around the navigation */
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  /* Styles for the heading */
+  div nav h2 {
+    margin: 0; /* Remove default margin */
+    font-weight:700;
+  }
+  
+  /* Styles for the heading link */
+  div nav h2 a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Styles for the list */
+  div nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin-left: auto; /* Move list to the right */
+  }
+  
+  /* Styles for the list items */
+  div nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between list items */
+    color: #fff;
+  }
+  
+  /* Styles for the list item links */
+  div nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Styles for the active link */
+  div nav ul li a.active {
+    font-weight: bold; /* Bold font for active link */
+  }
+  
+  /* Styles for the horizontal rule */
+  div hr {
+    border-color: #ccc; /* Color of the horizontal rule */
+    margin-top: 20px; /* Add space between navigation and horizontal rule */
+  }
+  

@@ -1,0 +1,20 @@
+/* Styling for the container */
+div {
+    margin: 20px; /* Add some margin around the container */
+}
+
+/* Styling for the title */
+h3 {
+    color: #333; /* Set the title color */
+    margin-bottom: 10px; /* Add some space below the title */
+}
+
+/* Styling for the code snippet */
+pre {
+    background-color: #f4f4f4; /* Set a light gray background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    padding: 10px; /* Add padding inside the code snippet */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    font-family: 'Courier New', Courier, monospace; /* Use monospace font */
+}

@@ -1,0 +1,14 @@
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quia ratione repellat tempore libero, eos blanditiis commodi aliquid iusto neque quasi illo velit at doloremque quisquam soluta vero nihil iure est quam error repudiandae! Et dolores tempore veritatis explicabo qui.</p>
+<button type="button" #greeting>hello!</button>
+
+@defer(on hover(greeting)){
+    <app-heavy></app-heavy>
+}@placeholder {
+    <h3>This is place holder..</h3>
+}
+@loading(after 100ms;minimum 1s) {
+    <h3>Content is loading..</h3>
+}@error {
+    <h3>Error while loading heavy component..</h3>
+}
+
